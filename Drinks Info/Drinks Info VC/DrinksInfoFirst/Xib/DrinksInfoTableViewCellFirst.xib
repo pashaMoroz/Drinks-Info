@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DrinksInfoTableViewCellFirst" customModule="Drinks_Info" customModuleProvider="target">
+            <connections>
+                <outlet property="drinksImageView" destination="66c-DB-zpk" id="ct1-xh-GFt"/>
+                <outlet property="drinksValue" destination="puV-Ne-K8E" id="aCZ-BK-ouK"/>
+                <outlet property="nameOfDrinkLabel" destination="4F3-Bh-ftt" id="XCr-78-gWb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="t6Z-sO-Mab">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t6Z-sO-Mab" id="O8P-Ve-vwh" customClass="DrinksInfoTableViewCellFirst" customModule="Drinks_Info" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="66c-DB-zpk">
+                        <rect key="frame" x="16" y="8" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="7Th-je-Rn2"/>
+                            <constraint firstAttribute="width" constant="24" id="tSQ-NW-L40"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4F3-Bh-ftt">
+                        <rect key="frame" x="56" y="8" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puV-Ne-K8E">
+                        <rect key="frame" x="373" y="8" width="25" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4F3-Bh-ftt" firstAttribute="leading" secondItem="66c-DB-zpk" secondAttribute="trailing" constant="16" id="09Y-1A-Gos"/>
+                    <constraint firstAttribute="bottom" secondItem="66c-DB-zpk" secondAttribute="bottom" constant="8" id="JJ2-La-xd5"/>
+                    <constraint firstAttribute="bottom" secondItem="4F3-Bh-ftt" secondAttribute="bottom" constant="8" id="Jbh-It-cZt"/>
+                    <constraint firstItem="puV-Ne-K8E" firstAttribute="top" secondItem="O8P-Ve-vwh" secondAttribute="top" constant="8" id="Ojx-vS-9Av"/>
+                    <constraint firstItem="4F3-Bh-ftt" firstAttribute="centerY" secondItem="O8P-Ve-vwh" secondAttribute="centerY" id="aFT-8T-4eQ"/>
+                    <constraint firstItem="66c-DB-zpk" firstAttribute="top" secondItem="O8P-Ve-vwh" secondAttribute="top" constant="8" id="aSp-xm-yNo"/>
+                    <constraint firstAttribute="bottom" secondItem="puV-Ne-K8E" secondAttribute="bottom" constant="8" id="aqO-4l-so7"/>
+                    <constraint firstItem="4F3-Bh-ftt" firstAttribute="top" secondItem="O8P-Ve-vwh" secondAttribute="top" constant="8" id="crk-JI-GCn"/>
+                    <constraint firstItem="66c-DB-zpk" firstAttribute="leading" secondItem="O8P-Ve-vwh" secondAttribute="leading" constant="16" id="hGx-c6-1ni"/>
+                    <constraint firstAttribute="trailing" secondItem="puV-Ne-K8E" secondAttribute="trailing" constant="16" id="tvy-Xy-0fn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="drinksImageView" destination="66c-DB-zpk" id="lqk-X3-BWp"/>
+                <outlet property="drinksValue" destination="puV-Ne-K8E" id="a5g-WH-Jz7"/>
+                <outlet property="nameOfDrinkLabel" destination="4F3-Bh-ftt" id="TzM-zU-iMp"/>
+            </connections>
+            <point key="canvasLocation" x="181.15942028985509" y="163.39285714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

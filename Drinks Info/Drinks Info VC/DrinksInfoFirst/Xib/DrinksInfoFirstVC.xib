@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DrinksInfoFirstVC" customModule="Drinks_Info" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="nCH-Jb-bTm" id="c75-MR-0BV"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="a9e-Dj-bc8"/>
+                <outlet property="infoTextLabel" destination="le5-RW-ahx" id="WLO-GA-Upp"/>
+                <outlet property="tableView" destination="iY4-tT-zkK" id="iex-UX-OFu"/>
+                <outlet property="titleLabel" destination="AFu-yT-CuU" id="d9d-5f-REw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCH-Jb-bTm">
+                    <rect key="frame" x="24" y="16" width="48" height="30"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" red="0.95294117647058818" green="0.42352941176470588" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drinks Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFu-yT-CuU">
+                    <rect key="frame" x="166" y="24" width="82" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="le5-RW-ahx">
+                    <rect key="frame" x="16" y="80" width="382" height="101.66666666666669"/>
+                    <string key="text">According to the latest research data, not only water but also everything that is drunk per day affects the state of the water balance in the body. All drinks are calculated with a certain coefficient. And alcohol lowers water level in the body.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iY4-tT-zkK">
+                    <rect key="frame" x="16" y="196" width="382" height="456"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="nCH-Jb-bTm" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="2Wc-qE-G4G"/>
+                <constraint firstItem="AFu-yT-CuU" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="24" id="2ta-ID-8i5"/>
+                <constraint firstItem="AFu-yT-CuU" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="LI5-cw-WmM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="le5-RW-ahx" secondAttribute="trailing" constant="16" id="Rq9-Gg-kAd"/>
+                <constraint firstItem="iY4-tT-zkK" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="SVn-XV-YC0"/>
+                <constraint firstItem="nCH-Jb-bTm" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="fVX-Hv-xqZ"/>
+                <constraint firstItem="iY4-tT-zkK" firstAttribute="top" secondItem="le5-RW-ahx" secondAttribute="bottom" constant="14.333333333333314" id="hfG-oK-XZn"/>
+                <constraint firstItem="le5-RW-ahx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="jBJ-a6-sVK"/>
+                <constraint firstItem="le5-RW-ahx" firstAttribute="top" secondItem="AFu-yT-CuU" secondAttribute="bottom" constant="35" id="p9t-DF-j4q"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iY4-tT-zkK" secondAttribute="trailing" constant="16" id="s6H-hq-VU0"/>
+                <constraint firstItem="iY4-tT-zkK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="t7q-Cm-7Oh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="iY4-tT-zkK" secondAttribute="bottom" constant="84" id="uI7-0S-H9C"/>
+            </constraints>
+            <point key="canvasLocation" x="-57" y="38"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
