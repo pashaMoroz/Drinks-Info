@@ -15,6 +15,7 @@
                 <outlet property="infoTextLabel" destination="le5-RW-ahx" id="WLO-GA-Upp"/>
                 <outlet property="tableView" destination="iY4-tT-zkK" id="iex-UX-OFu"/>
                 <outlet property="titleLabel" destination="AFu-yT-CuU" id="d9d-5f-REw"/>
+                <outlet property="view" destination="iN0-l3-epB" id="MC8-ba-3y9"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

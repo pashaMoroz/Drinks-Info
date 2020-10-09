@@ -18,6 +18,7 @@
 		D757C626252E02DA00713A3E /* DrinksInfoFirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D757C625252E02DA00713A3E /* DrinksInfoFirstVC.xib */; };
 		D757C62C252E07A300713A3E /* DrinksInfoTableViewCellFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = D757C62B252E07A300713A3E /* DrinksInfoTableViewCellFirst.swift */; };
 		D757C65925302F1800713A3E /* DrinksInfoFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D757C65825302F1800713A3E /* DrinksInfoFirstVC.swift */; };
+		D757C66525303CFD00713A3E /* DrinksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D757C66425303CFD00713A3E /* DrinksData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D757C625252E02DA00713A3E /* DrinksInfoFirstVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrinksInfoFirstVC.xib; sourceTree = "<group>"; };
 		D757C62B252E07A300713A3E /* DrinksInfoTableViewCellFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksInfoTableViewCellFirst.swift; sourceTree = "<group>"; };
 		D757C65825302F1800713A3E /* DrinksInfoFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksInfoFirstVC.swift; sourceTree = "<group>"; };
+		D757C66425303CFD00713A3E /* DrinksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		D757C61D252E005700713A3E /* Drinks Info VC */ = {
 			isa = PBXGroup;
 			children = (
+				D757C66325303CDB00713A3E /* Drinks Model */,
 				D757C621252E025C00713A3E /* DrinksInfoFirst */,
 			);
 			path = "Drinks Info VC";
@@ -167,6 +170,14 @@
 				D757C625252E02DA00713A3E /* DrinksInfoFirstVC.xib */,
 			);
 			path = Xib;
+			sourceTree = "<group>";
+		};
+		D757C66325303CDB00713A3E /* Drinks Model */ = {
+			isa = PBXGroup;
+			children = (
+				D757C66425303CFD00713A3E /* DrinksData.swift */,
+			);
+			path = "Drinks Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D757C66525303CFD00713A3E /* DrinksData.swift in Sources */,
 				D757C5DD252DF96600713A3E /* MainViewController.swift in Sources */,
 				D757C65925302F1800713A3E /* DrinksInfoFirstVC.swift in Sources */,
 				D757C5D9252DF96600713A3E /* AppDelegate.swift in Sources */,
