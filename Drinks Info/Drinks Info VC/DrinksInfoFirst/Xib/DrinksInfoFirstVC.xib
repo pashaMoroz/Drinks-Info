@@ -36,15 +36,15 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="le5-RW-ahx">
-                    <rect key="frame" x="16" y="80" width="382" height="101.66666666666669"/>
+                    <rect key="frame" x="16" y="80" width="382" height="95.666666666666686"/>
                     <string key="text">According to the latest research data, not only water but also everything that is drunk per day affects the state of the water balance in the body. All drinks are calculated with a certain coefficient. And alcohol lowers water level in the body.</string>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iY4-tT-zkK">
-                    <rect key="frame" x="16" y="196" width="382" height="456"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iY4-tT-zkK">
+                    <rect key="frame" x="16" y="190" width="382" height="530"/>
+                    <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                 </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
@@ -61,7 +61,7 @@
                 <constraint firstItem="le5-RW-ahx" firstAttribute="top" secondItem="AFu-yT-CuU" secondAttribute="bottom" constant="35" id="p9t-DF-j4q"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iY4-tT-zkK" secondAttribute="trailing" constant="16" id="s6H-hq-VU0"/>
                 <constraint firstItem="iY4-tT-zkK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="t7q-Cm-7Oh"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="iY4-tT-zkK" secondAttribute="bottom" constant="84" id="uI7-0S-H9C"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="iY4-tT-zkK" secondAttribute="bottom" constant="16" id="uI7-0S-H9C"/>
             </constraints>
             <point key="canvasLocation" x="-57" y="38"/>
         </view>

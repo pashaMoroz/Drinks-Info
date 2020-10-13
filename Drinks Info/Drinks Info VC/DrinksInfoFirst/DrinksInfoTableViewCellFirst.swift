@@ -15,15 +15,20 @@ class DrinksInfoTableViewCellFirst: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-       
+        
     }
 
+    override func layoutSubviews() {
+        super.layoutSubviews()
+
+    }
 
     func configFavoriteCell(drink: DrinksData) {
 
-        drinksImage.image = UIImage(named: drink.image ?? "")
+      //  drinksImage.image = UIImage(named: drink.image ?? "")
         nameOfDrinkLabel.text = drink.name ?? ""
         drinksValue.text = drink.value ?? ""
+        drinksImage.image = UIImage(named: drink.image ?? "")
     }
 
 }
